@@ -1,0 +1,136 @@
+html, body {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.02em;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+canvas {
+}
+.canvas-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.blur{
+	opacity: 0.2;
+	-webkit-filter: blur(5px);
+	   -moz-filter: blur(5px);
+	     -o-filter: blur(5px);
+	    -ms-filter: blur(5px);
+	        filter: blur(5px);
+}
+.button {
+	cursor: pointer;
+	background: #FF7373;
+	padding: 20px 40px;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	color: #fff;
+	width: 340px;
+	margin: 20% auto;
+}
+.info {
+	width: 0px;
+	opacity: 0;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	background: #FF7373;
+	padding: 30px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 100;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.prod {
+	width: 0px;
+	opacity: 0;
+	position: absolute;
+	left: 100px;
+	background: rgba(0,0,0,0.4);
+	padding: 30px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 100;
+}
+.pr {
+	top: 240px;
+	-webkit-transition: all 0.3s 0.3s;
+	-moz-transition: all 0.3s 0.3s;
+	-o-transition: all 0.3s 0.3s;
+	transition: all 0.3s 0.3s;
+}
+.pr2 {
+	top: 340px;
+	-webkit-transition: all 0.3s 0.6s;
+	-moz-transition: all 0.3s 0.6s;
+	-o-transition: all 0.3s 0.6s;
+	transition: all 0.3s 0.6s;
+}
+.add {
+	display: inline-block;
+	margin-left: 20px;
+}
+.shown {
+	width: 340px;
+	opacity: 1;
+}
+.tip {
+	position: absolute;
+	bottom: 100px;
+	right: -400px;
+	width: 340px;
+	padding: 30px;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	-webkit-transition: all 0.3s 0.9s;
+	-moz-transition: all 0.3s 0.9s;
+	-o-transition: all 0.3s 0.9s;
+	transition: all 0.3s 0.9s;
+}
+.tip2 {
+	position: absolute;
+	top: -400px;
+	left: 50%;
+	margin-left: -170px;
+	width: 340px;
+	padding: 30px;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	font-size: 18px;
+	font-weight: 100;
+	text-align: center;
+	-webkit-transition: all 0.3s 0.9s;
+	-moz-transition: all 0.3s 0.9s;
+	-o-transition: all 0.3s 0.9s;
+	transition: all 0.3s 0.9s;
+}
+a.unlock {
+	display: block;
+	cursor: pointer;
+	width: 100%;
+	font-size: 16px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+a.unlock:hover {
+	color: #FF7373;
+}
